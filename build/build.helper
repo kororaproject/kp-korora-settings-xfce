@@ -1,0 +1,13 @@
+#!/bin/bash
+
+function build_pre_build {
+  _TARBALL="korora-settings-xfce.tar.gz"
+
+  _pushd "${WORKING_PACKAGES_DIR}/${KP_NAME}/build/sources/"
+
+  _info "Creating tarball ..."
+
+  tar -cf "${_TARBALL}" *
+
+  _popd
+}
