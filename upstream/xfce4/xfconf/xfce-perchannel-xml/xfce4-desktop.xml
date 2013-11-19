@@ -4,12 +4,11 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/usr/share/xfce4/backdrops/schroedinger-cat.jpg"/>
+        <property name="image-path" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
         <property name="image-show" type="bool" value="true"/>
         <property name="image-style" type="int" value="0"/>
-        <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/schroedinger-cat.jpg"/>
-        <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/schroedinger-cat.jpg"/>
-        <property name="last-image-list" type="string" value="/home/maik/.config/xfce4/desktop/backdrop.list"/>
+        <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
+        <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
       </property>
     </property>
   </property>
