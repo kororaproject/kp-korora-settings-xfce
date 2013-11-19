@@ -24,7 +24,7 @@ mkdir -p %{buildroot}%{_libdir}/firefox/browser/defaults/profile
 mkdir -p %{buildroot}%{_sysconfdir}/skel
 
 cp -a %{_builddir}/%{name}-%{version}/prefs-xfce.js %{buildroot}%{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
-cp -a %{_builddir}/%{name}-%{version}/xfce4 %{buildroot}%{_sysconfdir}/skel/.xfce4
+cp -a %{_builddir}/%{name}-%{version}/xfce4 %{buildroot}%{_sysconfdir}/skel/.config/
 
 %clean
 rm -rf %{buildroot}
@@ -47,7 +47,7 @@ fi
 %files 
 %defattr(-,root,root,-)
 %{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
-%{_sysconfdir}/skel/.xfce4
+%{_sysconfdir}/skel/.config/xfce4
 
 %changelog
 * Tue Nov 19 2013 Chris Smart <csmart@kororaproject.org> 0.1-1
