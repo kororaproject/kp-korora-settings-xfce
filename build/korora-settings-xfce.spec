@@ -21,7 +21,7 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_libdir}/firefox/browser/defaults/profile
-mkdir -p %{buildroot}%{_sysconfdir}/skel
+mkdir -p %{buildroot}%{_sysconfdir}/skel/.config
 
 cp -a %{_builddir}/%{name}-%{version}/prefs-xfce.js %{buildroot}%{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
 cp -a %{_builddir}/%{name}-%{version}/xfce4 %{buildroot}%{_sysconfdir}/skel/.config/
