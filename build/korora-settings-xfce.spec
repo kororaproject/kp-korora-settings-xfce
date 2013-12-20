@@ -1,6 +1,6 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
-Version:    0.1
+Version:    0.2
 Release:    1%{?dist}.1
 
 Group:      System Environment/Base
@@ -44,11 +44,14 @@ then
   cd -
 fi
 
-%files 
+%files
 %defattr(-,root,root,-)
 %{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
 %{_sysconfdir}/skel/.config/xfce4
 
 %changelog
+* Fri Dec 20 2013 Ian Firns <firnsy@kororaproject.org> 0.2-1
+- Updated font sizes and removed autohide for bottom panel.
+
 * Tue Nov 19 2013 Chris Smart <csmart@kororaproject.org> 0.1-1
 - Initial settings for xfce
