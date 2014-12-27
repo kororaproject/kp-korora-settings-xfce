@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.10
-Release:    1%{?dist}
+Release:    2%{?dist}.1
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.config/xfce4
 
 %changelog
+* Sat Dec 27 2014 Chris Smart <csmart@kororaproject.org> 0.10-2
+- Update to Whisker menu, updated settings.
+
 * Sat Dec 20 2014 Chris Smart <csmart@kororaproject.org> 0.10-1
 - Move firefox profile to generic package.
 

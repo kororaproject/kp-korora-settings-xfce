@@ -62,6 +62,7 @@
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86AudioNext" type="string" value="pragha --next"/>
       <property name="override" type="bool" value="true"/>
+      <property name="Super_L" type="string" value="/usr/bin/xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

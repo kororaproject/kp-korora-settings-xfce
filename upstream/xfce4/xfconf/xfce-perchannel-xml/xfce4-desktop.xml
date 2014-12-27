@@ -9,10 +9,16 @@
         <property name="image-style" type="int" value="0"/>
         <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
         <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
+        <property name="last-image-list" type="string" value="/home/darkera/.config/xfce4/desktop/backdrop.list"/>
       </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
     <property name="icon-size" type="uint" value="48"/>
+    <property name="file-icons" type="empty">
+      <property name="show-home" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+    </property>
   </property>
 </channel>
