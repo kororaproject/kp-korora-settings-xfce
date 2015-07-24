@@ -2,8 +2,8 @@
 
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
-Version:    0.10
-Release:    3%{?dist}
+Version:    0.11
+Release:    1%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.config/xfce4
 
 %changelog
+* Fri Jul 24 2015 Ian Firns <firnsy@kororaproject.org> 0.11-1
+- Updated whisker menu.
+
 * Wed Jan 04 2015 Chris Smart <csmart@kororaproject.org> 0.10-3
 - Update to fix power management icon.
 
