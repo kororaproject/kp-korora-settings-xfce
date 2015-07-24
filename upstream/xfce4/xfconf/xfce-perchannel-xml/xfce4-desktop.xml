@@ -9,7 +9,6 @@
         <property name="image-style" type="int" value="0"/>
         <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
         <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
-        <property name="last-image-list" type="string" value="/home/darkera/.config/xfce4/desktop/backdrop.list"/>
       </property>
     </property>
   </property>
@@ -20,5 +19,6 @@
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="false"/>
     </property>
+    <property name="tooltip-size" type="double" value="50.000000"/>
   </property>
 </channel>
