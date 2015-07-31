@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.11
-Release:    1%{?dist}
+Release:    2%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.config/xfce4
 
 %changelog
+* Fri Jul 31 2015 Chris Smart <csmart@kororaproject.org> 0.11-2
+- Use yumex-dnf instead of yumex
+
 * Fri Jul 24 2015 Ian Firns <firnsy@kororaproject.org> 0.11-1
 - Updated whisker menu.
 

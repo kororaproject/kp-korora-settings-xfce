@@ -2,10 +2,10 @@
 Name=Yum Extender
 Comment=Install, update and remove applications
 Categories=System;Settings;X-Red-Hat-Base;X-Fedora;
-Icon=yumex
-Exec=/usr/bin/yumex
+Icon=yumex-dnf
+Exec=/usr/bin/yumex-dnf
 Type=Application
 Terminal=false
 Encoding=UTF-8
 GenericName=Software Installer
-X-XFCE-Source=file:///usr/share/applications/yumex.desktop
+X-XFCE-Source=file:///usr/share/applications/yumex-dnf.desktop

@@ -64,7 +64,7 @@
         <value type="string" value="xchat"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
-        <value type="string" value="yumex"/>
+        <value type="string" value="yumex-dnf"/>
         <value type="string" value="turpial"/>
         <value type="string" value="seapplet"/>
         <value type="string" value="pidgin"/>
