@@ -10,6 +10,21 @@
         <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
         <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
       </property>
+      <property name="monitorVirtual-0" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
+          <property name="backdrop-cycle-enable" type="bool" value="true"/>
+          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
+          <property name="backdrop-cycle-timer" type="uint" value="30"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
+        </property>
+      </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
@@ -18,7 +33,9 @@
       <property name="show-home" type="bool" value="false"/>
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="false"/>
+      <property name="show-removable" type="bool" value="false"/>
     </property>
     <property name="tooltip-size" type="double" value="50.000000"/>
   </property>
 </channel>
+

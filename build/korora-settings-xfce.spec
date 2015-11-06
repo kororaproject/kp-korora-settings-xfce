@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.11
-Release:    2%{?dist}
+Release:    3%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.config/xfce4
 
 %changelog
+* Fri Nov 6 2015 Chris Smart <csmart@kororaproject.org> 0.11-3
+- Don't show icons on desktop, enable slideshow background
+
 * Fri Jul 31 2015 Chris Smart <csmart@kororaproject.org> 0.11-2
 - Use yumex-dnf instead of yumex
 
