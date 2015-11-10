@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.11
-Release:    3%{?dist}
+Release:    3%{?dist}.1
 
 Group:      System Environment/Base
 License:    GPLv3+
