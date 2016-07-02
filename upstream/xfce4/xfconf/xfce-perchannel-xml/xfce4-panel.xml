@@ -47,7 +47,7 @@
       <property name="size" type="uint" value="48"/>
       <property name="mode" type="uint" value="2"/>
       <property name="length-adjust" type="bool" value="true"/>
-      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">

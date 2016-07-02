@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.11
-Release:    4%{?dist}
+Release:    4%{?dist}.2
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -11,6 +11,7 @@ Url:        http://kororaproject.org
 Source0:    %{name}-%{version}.tar.gz
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 #BuildArch: noarch
+Requires:   arc-theme, ksuperkey
 
 %description
 %{summary}.
@@ -23,10 +24,11 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 %install
 rm -rf %{buildroot}
 #mkdir -p %{buildroot}%{_libdir}/firefox/browser/defaults/profile
-mkdir -p %{buildroot}%{_sysconfdir}/skel/.config
+mkdir -p %{buildroot}%{_sysconfdir}/skel/.config/autostart
 
 #cp -a %{_builddir}/%{name}-%{version}/prefs-xfce.js %{buildroot}%{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
 cp -a %{_builddir}/%{name}-%{version}/xfce4 %{buildroot}%{_sysconfdir}/skel/.config/
+install -m 600 ksuperkey.desktop %{buildroot}%{_sysconfdir}/skel/.config/autostart/ksuperkey.desktop
 
 %clean
 rm -rf %{buildroot}
@@ -50,10 +52,12 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 #%{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
 %{_sysconfdir}/skel/.config/xfce4
+%{_sysconfdir}/skel/.config/autostart/ksuperkey.desktop
 
 %changelog
 * Sat Jul 2 2016 Chris Smart <csmart@kororaproject.org> 0.11-4
 - Change to Arc theme and Numix Circle icons
+- Add support for ksuperkey
 
 * Fri Nov 6 2015 Chris Smart <csmart@kororaproject.org> 0.11-3
 - Don't show icons on desktop, enable slideshow background

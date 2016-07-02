@@ -41,7 +41,6 @@
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
       <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master 10%+ -q"/>
       <property name="XF86Terminal" type="string" value="Terminal"/>
-      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed"/>
@@ -58,11 +57,10 @@
       <property name="XF86AudioPlay" type="string" value="pragha --pause"/>
       <property name="XF86Calendar" type="string" value="orage"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;L" type="string" value="xfce4-session-logout"/>
-      <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86AudioNext" type="string" value="pragha --next"/>
       <property name="override" type="bool" value="true"/>
-      <property name="Super_L" type="string" value="/usr/bin/xfce4-popup-whiskermenu"/>
+      <property name="&lt;Alt&gt;F1" type="string" value="/usr/bin/xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
