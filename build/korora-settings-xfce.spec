@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.11
-Release:    3%{?dist}.1
+Release:    4%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.config/xfce4
 
 %changelog
+* Sat Jul 2 2016 Chris Smart <csmart@kororaproject.org> 0.11-4
+- Change to Arc theme and Numix Circle icons
+
 * Fri Nov 6 2015 Chris Smart <csmart@kororaproject.org> 0.11-3
 - Don't show icons on desktop, enable slideshow background
 

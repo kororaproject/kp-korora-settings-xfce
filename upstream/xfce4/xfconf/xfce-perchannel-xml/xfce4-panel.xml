@@ -15,9 +15,9 @@
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="4"/>
-        <value type="int" value="16"/>
         <value type="int" value="6"/>
         <value type="int" value="1"/>
+        <value type="int" value="7"/>
         <value type="int" value="17"/>
         <value type="int" value="2"/>
       </property>
@@ -42,12 +42,12 @@
         <value type="int" value="18"/>
         <value type="int" value="21"/>
       </property>
-      <property name="autohide" type="bool" value="true"/>
       <property name="background-alpha" type="uint" value="80"/>
       <property name="length" type="uint" value="10"/>
       <property name="size" type="uint" value="48"/>
       <property name="mode" type="uint" value="2"/>
       <property name="length-adjust" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -143,5 +143,8 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-1" type="string" value="power-manager-plugin"/>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
   </property>
 </channel>
