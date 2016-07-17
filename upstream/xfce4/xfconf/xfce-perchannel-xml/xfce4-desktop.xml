@@ -9,19 +9,14 @@
         <property name="image-style" type="int" value="0"/>
         <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
         <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
-      </property>
-      <property name="monitorVirtual-0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="3"/>
+          <property name="image-style" type="int" value="5"/>
           <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
-          <property name="backdrop-cycle-enable" type="bool" value="true"/>
-          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
-          <property name="backdrop-cycle-timer" type="uint" value="10"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="3"/>
+          <property name="image-style" type="int" value="5"/>
           <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/korora.png"/>
         </property>
       </property>
@@ -38,4 +33,3 @@
     <property name="tooltip-size" type="double" value="50.000000"/>
   </property>
 </channel>
-
