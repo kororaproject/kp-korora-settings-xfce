@@ -31,7 +31,7 @@
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="empty"/>
+    <property name="CursorThemeName" type="breeze_cursors"/>
     <property name="CursorThemeSize" type="empty"/>
     <property name="IMModule" type="string" value="gtk-im-context-simple:xim"/>
   </property>
