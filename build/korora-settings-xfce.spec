@@ -2,8 +2,8 @@
 
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
-Version:    0.11
-Release:    4%{?dist}.5
+Version:    0.12
+Release:    1%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -25,10 +25,13 @@ Requires:   arc-theme, ksuperkey
 rm -rf %{buildroot}
 #mkdir -p %{buildroot}%{_libdir}/firefox/browser/defaults/profile
 mkdir -p %{buildroot}%{_sysconfdir}/skel/.config/autostart
+mkdir -p %{buildroot}%{_sysconfdir}/skel/.local/share
 
 #cp -a %{_builddir}/%{name}-%{version}/prefs-xfce.js %{buildroot}%{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
 cp -a %{_builddir}/%{name}-%{version}/xfce4 %{buildroot}%{_sysconfdir}/skel/.config/
 install -m 600 ksuperkey.desktop %{buildroot}%{_sysconfdir}/skel/.config/autostart/ksuperkey.desktop
+
+cp -a %{_builddir}/%{name}-%{version}/xfpanel-switch %{buildroot}%{_sysconfdir}/skel/.config/share/
 
 %clean
 rm -rf %{buildroot}
@@ -53,8 +56,12 @@ rm -rf %{buildroot}
 #%{_libdir}/firefox/browser/defaults/profile/prefs-xfce.js
 %{_sysconfdir}/skel/.config/xfce4
 %{_sysconfdir}/skel/.config/autostart/ksuperkey.desktop
+%{_sysconfdir}/skel/.local/share/xfpanel-switch
 
 %changelog
+* Tue Aug 20 2017 Ian Firns <firnsy@kororaproject.org> 0.12-1
+- Updated for 26 release
+
 * Sat Jul 2 2016 Chris Smart <csmart@kororaproject.org> 0.11-4
 - Change to Arc theme and Numix Circle icons
 - Add support for ksuperkey

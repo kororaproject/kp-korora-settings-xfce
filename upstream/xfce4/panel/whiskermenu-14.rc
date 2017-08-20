@@ -1,4 +1,4 @@
-favorites=firefox.desktop,mozilla-thunderbird.desktop,pidgin.desktop,audacious.desktop,vlc.desktop,yumex-dnf.desktop,Thunar.desktop,xfce4-terminal.desktop
+favorites=firefox.desktop,mozilla-thunderbird.desktop,pidgin.desktop,audacious.desktop,vlc.desktop,Thunar.desktop,xfce4-terminal.desktop
 recent=
 button-title=Menu
 button-icon=fedora-logo-sprite
@@ -7,8 +7,10 @@ show-button-title=true
 show-button-icon=true
 launcher-show-name=true
 launcher-show-description=true
+launcher-show-tooltip=true
 item-icon-size=2
 hover-switch-category=false
+category-show-name=true
 category-icon-size=1
 load-hierarchy=false
 recent-items-max=10

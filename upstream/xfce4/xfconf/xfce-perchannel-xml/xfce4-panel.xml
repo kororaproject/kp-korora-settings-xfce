@@ -19,7 +19,6 @@
         <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="17"/>
-        <value type="int" value="2"/>
       </property>
       <property name="background-alpha" type="uint" value="100"/>
       <property name="background-style" type="uint" value="0"/>
@@ -50,7 +49,6 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="actions"/>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -63,11 +61,13 @@
         <value type="string" value="xchat"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
+        <value type="string" value="dnfdragora-updater"/>
         <value type="string" value="yumex-dnf"/>
         <value type="string" value="turpial"/>
         <value type="string" value="seapplet"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="bluetooth"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="audacious"/>
         <value type="string" value="deluge-gtk"/>
@@ -109,7 +109,7 @@
     </property>
     <property name="plugin-23" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="13845175211.desktop"/>
+        <value type="string" value="15028802011.desktop"/>
       </property>
     </property>
     <property name="plugin-27" type="string" value="launcher">

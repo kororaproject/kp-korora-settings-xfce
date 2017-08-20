@@ -22,6 +22,7 @@
         <value type="int" value="0"/>
         <value type="int" value="0"/>
       </property>
+      <property name="libinput_Tapping_Enabled" type="int" value="1"/>
     </property>
   </property>
 </channel>

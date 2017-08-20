@@ -3,4 +3,10 @@
 <channel name="xfce4-notifyd" version="1.0">
   <property name="notify-location" type="uint" value="2"/>
   <property name="theme" type="string" value="Arc"/>
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="Sealert notification"/>
+      <value type="string" value="xfce4-power-manager"/>
+    </property>
+  </property>
 </channel>
