@@ -3,7 +3,7 @@
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
 Version:    0.12
-Release:    1%{?dist}
+Release:    2%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -31,7 +31,7 @@ mkdir -p %{buildroot}%{_sysconfdir}/skel/.local/share
 cp -a %{_builddir}/%{name}-%{version}/xfce4 %{buildroot}%{_sysconfdir}/skel/.config/
 install -m 600 ksuperkey.desktop %{buildroot}%{_sysconfdir}/skel/.config/autostart/ksuperkey.desktop
 
-cp -a %{_builddir}/%{name}-%{version}/xfpanel-switch %{buildroot}%{_sysconfdir}/skel/.config/share/
+cp -a %{_builddir}/%{name}-%{version}/xfpanel-switch %{buildroot}%{_sysconfdir}/skel/.local/share/
 
 %clean
 rm -rf %{buildroot}
@@ -59,6 +59,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.local/share/xfpanel-switch
 
 %changelog
+* Mon Sep 11 2017 Ian Firns <firnsy@kororaproject.org> 0.12-2
+- Removed duplicate volume notifications and set notification theme
+
 * Tue Aug 20 2017 Ian Firns <firnsy@kororaproject.org> 0.12-1
 - Updated for 26 release
 

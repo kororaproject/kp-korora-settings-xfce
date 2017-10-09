@@ -19,6 +19,7 @@
         <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="17"/>
+        <value type="int" value="2"/>
       </property>
       <property name="background-alpha" type="uint" value="100"/>
       <property name="background-style" type="uint" value="0"/>
@@ -37,7 +38,6 @@
         <value type="int" value="22"/>
         <value type="int" value="10"/>
         <value type="int" value="13"/>
-        <value type="int" value="18"/>
         <value type="int" value="21"/>
       </property>
       <property name="background-alpha" type="uint" value="80"/>
@@ -49,6 +49,7 @@
     </property>
   </property>
   <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="actions"/>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -57,17 +58,17 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="thunar"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="empathy"/>
         <value type="string" value="xchat"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
-        <value type="string" value="dnfdragora-updater"/>
         <value type="string" value="yumex-dnf"/>
         <value type="string" value="turpial"/>
         <value type="string" value="seapplet"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="blueman-applet"/>
-        <value type="string" value="bluetooth"/>
+        <value type="string" value="xfce terminal"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="audacious"/>
         <value type="string" value="deluge-gtk"/>
@@ -109,17 +110,7 @@
     </property>
     <property name="plugin-23" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="15028802011.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-27" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="13848263215.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="13848275572.desktop"/>
+        <value type="string" value="14953197481.desktop"/>
       </property>
     </property>
     <property name="plugin-19" type="string" value="launcher">
@@ -132,13 +123,23 @@
       <property name="workspace-scrolling" type="bool" value="false"/>
     </property>
     <property name="plugin-14" type="string" value="whiskermenu"/>
-    <property name="plugin-18" type="string" value="thunar-tpa"/>
     <property name="plugin-21" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-1" type="string" value="power-manager-plugin"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="false"/>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="13848275572.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-27" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="13848263215.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
