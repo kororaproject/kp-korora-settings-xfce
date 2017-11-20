@@ -1,5 +1,5 @@
 favorites=firefox.desktop,mozilla-thunderbird.desktop,pidgin.desktop,audacious.desktop,vlc.desktop,Thunar.desktop,xfce4-terminal.desktop
-recent=
+recent=lightdm-settings.desktop,org.mageia.dnfdragora.desktop,xfce4-terminal.desktop
 button-title=Menu
 button-icon=fedora-logo-sprite
 button-single-row=false
