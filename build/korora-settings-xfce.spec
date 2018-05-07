@@ -2,8 +2,8 @@
 
 Summary:    Korora configs for Xfce
 Name:       korora-settings-xfce
-Version:    0.12
-Release:    2%{?dist}
+Version:    0.13
+Release:    1%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -59,6 +59,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/skel/.local/share/xfpanel-switch
 
 %changelog
+* Tue Nov 21 2017 Ian Firns <firnsy@kororaproject.org> 0.13-1
+- Updated for 27 release
+
 * Mon Sep 11 2017 Ian Firns <firnsy@kororaproject.org> 0.12-2
 - Removed duplicate volume notifications and set notification theme
 
